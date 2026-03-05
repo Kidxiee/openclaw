@@ -1,0 +1,17 @@
+{
+  "name": "@openclaw/eureka-agent",
+  "version": "2026.3.4",
+  "description": "Eureka Agent extension — patent/paper research tools and skills",
+  "type": "module",
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
+  },
+  "devDependencies": {
+    "openclaw": "workspace:*"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}

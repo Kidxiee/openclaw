@@ -1,0 +1,8 @@
+{
+  "id": "eureka-agent",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

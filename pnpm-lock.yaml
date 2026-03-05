@@ -319,6 +319,16 @@ importers:
 
   extensions/discord: {}
 
+  extensions/eureka-agent:
+    dependencies:
+      '@sinclair/typebox':
+        specifier: 0.34.48
+        version: 0.34.48
+    devDependencies:
+      openclaw:
+        specifier: workspace:*
+        version: link:../..
+
   extensions/feishu:
     dependencies:
       '@larksuiteoapi/node-sdk':
